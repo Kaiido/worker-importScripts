@@ -1,3 +1,5 @@
+// this is not a real polyfill
+// it is just a simple implementation to look at the API design
 addEventListener("message", async (evt) => {
   const method = evt.data?.method;
   if(method === "importScripts") {

@@ -1,5 +1,4 @@
-const engine = {
-};
+const engine = {};
 
 importScripts(
   "./operationA.js",
