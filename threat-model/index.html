@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="Content-Security-Policy"
+  content="script-src https://worker-importscripts-tests/ https://cdn.jsdelivr.net/gh/Kaiido/worker-importScripts/"/>
+<title></title>
+<script src="./../polyfill/client.js"></script>
+<!-- some spoiled script from an authorized CDN -->
+<script src="https://cdn.jsdelivr.net/gh/Kaiido/worker-importScripts/threat-model/spoiled-script.js"></script>
+</head>
+<body>
+  <input type="text"><br>
+  <input type="number"><br>
+  Log:
+  <pre>Our worker is now doing someone else's work</pre>
+  <script src="content.js"></script>
+</body>
+</html>

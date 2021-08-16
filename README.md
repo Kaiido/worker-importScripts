@@ -1,0 +1,2 @@
+These are simple demo tests to better understand the possible benefits (and potential risks) of https://github.com/whatwg/html/issues/6911
+Live demo lives at https://worker-external-importscripts.glitch.me
